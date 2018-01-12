@@ -1,0 +1,345 @@
+/*==========  MEDIA QUERIES  ==========*/
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  header {
+    .slogan {
+      .intro-text {
+        padding-top: 0;
+        }
+      }
+    }
+   main {
+     .about-bg {
+       background-position: left;
+     }
+     .about {
+       font-size: 106%;
+       .number {
+         font-size: 40px;
+       }
+       i {
+         font-size: 65px;
+       }
+       h1 {
+         font-size: 60px;
+       }
+     }
+     .skills {
+       .heading {
+         h1 {
+           font-size: 60px;
+         }
+         p {
+           font-size: 106%;
+         }
+       }
+     }
+     .projects {
+       .heading {
+         h1 {
+           font-size: 60px;
+         }
+       }
+     }
+     .team {
+       .heading {
+         h1 {
+           font-size: 60px;
+         }
+       }
+     }
+     .partners {
+       .heading {
+         h1 {
+           font-size: 60px;
+         }
+       }
+     }
+     .contact {
+       .form {
+         .heading {
+           h1 {
+             font-size: 60px;
+           }
+         }
+       }
+     }
+   }
+}
+
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  header {
+    .slogan {
+      .intro-text {
+        padding-top: 0;
+        }
+      }
+    }
+  main {
+    #about {
+      display: block;
+    }
+    .about-bg {
+      background-position: 78px -115px;
+    }
+    .about {
+      font-size: 106%;
+      width: 63vw;
+      text-align: center;
+      float: none;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      .number {
+        font-size: 40px;
+      }
+      i {
+        font-size: 65px;
+      }
+      h1 {
+        font-size: 60px;
+      }
+      p {
+        text-align: justify;
+      }
+    }
+    .skills {
+      .heading {
+        h1 {
+          font-size: 60px;
+        }
+        p {
+          font-size: 106%;
+        }
+      }
+      .skill {
+        margin-bottom: 50px;
+      }
+    }
+    .projects {
+      .heading {
+        h1 {
+          font-size: 60px;
+        }
+      }
+    }
+    .team {
+      .heading {
+        h1 {
+          font-size: 60px;
+        }
+      }
+    }
+    .partners {
+      .heading {
+        h1 {
+          font-size: 60px;
+        }
+      }
+    }
+    .contact {
+      .form {
+        .heading {
+          width: 100%;
+          h1 {
+            font-size: 60px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  header {
+    .slogan {
+      .intro-text {
+        padding-top: 0;
+        }
+      }
+    }
+  main {
+    #about {
+      display: block;
+    }
+    .about-bg {
+      background-position: -30px -115px;
+    }
+    .about {
+      font-size: 106%;
+      width: 75vw;
+      text-align: center;
+      float: none;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      .number {
+        font-size: 40px;
+      }
+      i {
+        font-size: 65px;
+      }
+      h1 {
+        font-size: 52px;
+      }
+      p {
+        text-align: justify;
+      }
+    }
+    .skills {
+      .heading {
+        h1 {
+          font-size: 52px;
+        }
+        p {
+          font-size: 106%;
+        }
+      }
+      .skill {
+        margin-bottom: 50px;
+      }
+    }
+    .projects {
+      .heading {
+        h1 {
+          font-size: 52px;
+        }
+      }
+    }
+    .team {
+      .heading {
+        h1 {
+          font-size: 52px;
+        }
+      }
+    }
+    .partners {
+      .heading {
+        h1 {
+          font-size: 52px;
+        }
+      }
+    }
+    .contact {
+      .map {
+        min-height: 500px;
+      }
+      .form {
+        margin-bottom: 55px;
+        .heading {
+          width: 100%;
+          h1 {
+            font-size: 52px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  header {
+    .slogan {
+      .intro-text {
+        padding-top: 0;
+        .btn {
+          font-size: 22px;
+        }
+      }
+    }
+  }
+  main {
+    #about {
+      display: block;
+    }
+    .about-bg {
+      background-position: -95px -115px;
+    }
+    .about {
+      font-size: 106%;
+      width: 75vw;
+      float: none;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      .number {
+        font-size: 40px;
+      }
+      i {
+        font-size: 65px;
+      }
+      h1 {
+        font-size: 47px;
+      }
+      p {
+        text-align: justify;
+      }
+    }
+    .skills {
+      .heading {
+        h1 {
+          font-size: 47px;
+        }
+        p {
+          font-size: 106%;
+        }
+      }
+      .skill {
+        margin-bottom: 50px;
+      }
+    }
+    .sentence {
+      blockquote {
+        font-size: 23px;
+      }
+    }
+    .projects {
+      .heading {
+        h1 {
+          font-size: 47px;
+        }
+      }
+    }
+    .team {
+      .heading {
+        h1 {
+          font-size: 47px;
+        }
+      }
+    }
+    .partners {
+      .heading {
+        h1 {
+          font-size: 44px;
+        }
+      }
+    }
+    .contact {
+      .map {
+        min-height: 500px;
+      }
+      .form {
+        margin-bottom: 55px;
+        .heading {
+          width: 100%;
+          h1 {
+            font-size: 47px;
+          }
+        }
+      }
+    }
+  }
+}

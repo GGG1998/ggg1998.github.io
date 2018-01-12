@@ -1,0 +1,165 @@
+/*==========  MEDIA QUERIES  ==========*/
+/* Large desktops and laptops */
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  header .slogan .intro-text {
+    padding-top: 0; }
+
+  main .about-bg {
+    background-position: left; }
+  main .about {
+    font-size: 106%; }
+    main .about .number {
+      font-size: 40px; }
+    main .about i {
+      font-size: 65px; }
+    main .about h1 {
+      font-size: 60px; }
+  main .skills .heading h1 {
+    font-size: 60px; }
+  main .skills .heading p {
+    font-size: 106%; }
+  main .projects .heading h1 {
+    font-size: 60px; }
+  main .team .heading h1 {
+    font-size: 60px; }
+  main .partners .heading h1 {
+    font-size: 60px; }
+  main .contact .form .heading h1 {
+    font-size: 60px; } }
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  header .slogan .intro-text {
+    padding-top: 0; }
+
+  main #about {
+    display: block; }
+  main .about-bg {
+    background-position: 78px -115px; }
+  main .about {
+    font-size: 106%;
+    width: 63vw;
+    text-align: center;
+    float: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+    main .about .number {
+      font-size: 40px; }
+    main .about i {
+      font-size: 65px; }
+    main .about h1 {
+      font-size: 60px; }
+    main .about p {
+      text-align: justify; }
+  main .skills .heading h1 {
+    font-size: 60px; }
+  main .skills .heading p {
+    font-size: 106%; }
+  main .skills .skill {
+    margin-bottom: 50px; }
+  main .projects .heading h1 {
+    font-size: 60px; }
+  main .team .heading h1 {
+    font-size: 60px; }
+  main .partners .heading h1 {
+    font-size: 60px; }
+  main .contact .form .heading {
+    width: 100%; }
+    main .contact .form .heading h1 {
+      font-size: 60px; } }
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  header .slogan .intro-text {
+    padding-top: 0; }
+
+  main #about {
+    display: block; }
+  main .about-bg {
+    background-position: -30px -115px; }
+  main .about {
+    font-size: 106%;
+    width: 75vw;
+    text-align: center;
+    float: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+    main .about .number {
+      font-size: 40px; }
+    main .about i {
+      font-size: 65px; }
+    main .about h1 {
+      font-size: 52px; }
+    main .about p {
+      text-align: justify; }
+  main .skills .heading h1 {
+    font-size: 52px; }
+  main .skills .heading p {
+    font-size: 106%; }
+  main .skills .skill {
+    margin-bottom: 50px; }
+  main .projects .heading h1 {
+    font-size: 52px; }
+  main .team .heading h1 {
+    font-size: 52px; }
+  main .partners .heading h1 {
+    font-size: 52px; }
+  main .contact .map {
+    min-height: 500px; }
+  main .contact .form {
+    margin-bottom: 55px; }
+    main .contact .form .heading {
+      width: 100%; }
+      main .contact .form .heading h1 {
+        font-size: 52px; } }
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  header .slogan .intro-text {
+    padding-top: 0; }
+    header .slogan .intro-text .btn {
+      font-size: 22px; }
+
+  main #about {
+    display: block; }
+  main .about-bg {
+    background-position: -95px -115px; }
+  main .about {
+    font-size: 106%;
+    width: 75vw;
+    float: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+    main .about .number {
+      font-size: 40px; }
+    main .about i {
+      font-size: 65px; }
+    main .about h1 {
+      font-size: 47px; }
+    main .about p {
+      text-align: justify; }
+  main .skills .heading h1 {
+    font-size: 47px; }
+  main .skills .heading p {
+    font-size: 106%; }
+  main .skills .skill {
+    margin-bottom: 50px; }
+  main .sentence blockquote {
+    font-size: 23px; }
+  main .projects .heading h1 {
+    font-size: 47px; }
+  main .team .heading h1 {
+    font-size: 47px; }
+  main .partners .heading h1 {
+    font-size: 44px; }
+  main .contact .map {
+    min-height: 500px; }
+  main .contact .form {
+    margin-bottom: 55px; }
+    main .contact .form .heading {
+      width: 100%; }
+      main .contact .form .heading h1 {
+        font-size: 47px; } }
+
+/*# sourceMappingURL=queries.css.map */
